@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.4;
+  color: #171717;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  height: auto;
+}
+
+.heder_head {
+  position: relative;
+  background-color: #40111d;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+}
+
+.head_liner {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.head_liner .logo {
+  font-size: 14px;
+  color: #dec1c9;
+  text-decoration: none;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+.head_liner .logo a {
+    font-size: 14px;
+    color: #dec1c9;
+    display: inline-block;
+    padding: 20px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .head_liner nav ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -0-flex;
+  display: flex;
+  justify-content: space-between;
+  -ms-algin-items: center;
+  align-items: center;
+}
+
+.head_liner nav ul li{
+  list-style-type: none;
+}
+
+.head_liner nav ul li a {
+  font-style: 14px;
+  color: #dec1c9;
+  display: inline-block;
+  padding: 20px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.intro {
+  position: relative;
+  padding: 20px 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url(/Users/1/Desktop/my-site/img/fon.jpg);
+  -webkit-backdrop-size:cover;
+  background-size: cover ;
+}
+
+.ing {
+  position: relative;
+  padding: 20px 0;
+  width: 100%;
+  height: 70vh;
+  background-image: url(/Users/1/Desktop/my-site/img/fon1.jpg);
+  -webkit-backdrop-size:cover;
+  background-size: cover ;
+}
+
+.section_title {
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #171717;
+  text-align: center;
+}
+
+.block {
+  width: 1000px;
+  height: 100%;
+  max-width: 1000px;
+  max-height: 100%;
+  background: rgba(204, 147, 187  , 0.486);
+  border-radius: 10px;
+  margin-left: 80px;
+}
+
+.block p {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.intro_lnner {
+  width: 100%;
+  min-width: 500px;
+  margin: 0 auto;
+}
+
+.intro_title{
+  color:  #4d1c32;
+  font-size: 75px;
+  font-weight: 300;
+  text-transform: inherit;
+  text-align: center;
+  line-height: 1;
+}
+h2 {
+  text-align: center;
+  color: #380c20;
+}
+
+footer {
+  position: relative;
+  padding: 20px 0;
+  background-color: #40111d;
+}
+
+footer p {
+  text-align: center;
+  color: #dec1c9;
+}
+
+.delivery_fon {
+  position: relative;
+  padding: 20px 0;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.delivery_from {
+  position: relative;
+  max-width: 700px;
+  margin: 45px auto;
+  text-align: center;
+}
+
+.delivery_from form input {
+  width: 100%;
+  height: 70px;
+  margin-bottom: 20px;
+  padding: 10px 0 10px 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  border: 1px solid #dec1c9;
+  border-radius: 10px;
+}
+
+.delivery_from form textarea {
+  width: 100%;
+  font-size: 20px;
+  border: 1px solid #dec1c9;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 0 10px 30px;
+}
+
+.delivery_from form button {
+  background-color: #40111d;
+  color: #dec1c9;
+  padding: 15px 30px;
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  font-size: 18px;
+}
+
+.delivery_ing {
+  position: relative;
+  padding: 20px 0;
+  width: 100%;
+  height: auto;
+  background-image: url(/Users/1/Desktop/my-site/img/fon1.jpg);
+  -webkit-backdrop-size:cover;
+  background-size: cover ;
+}
+
+.section_title_adresses {
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #171717;
+  text-align: left;
+}
+
+.section_title_adresses_ul {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #171717;
+  text-align: left;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
