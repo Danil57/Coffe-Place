@@ -210,7 +210,7 @@ footer p {
   padding: 20px 0;
   width: 100%;
   height: auto;
-  background-image: url(/Users/1/Desktop/my-site/img/fon1.jpg);
+  background-image: url(img/fon1.jpg);
   -webkit-backdrop-size:cover;
   background-size: cover ;
 }
