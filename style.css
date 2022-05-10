@@ -9,7 +9,7 @@ body {
   scroll-behavior: smooth;
   font-family: 'Montserrat', sans-serif;
   line-height: 1.4;
-  color: #171717;
+  color: #4d1c32;
 }
 header {
   position: sticky;
@@ -21,7 +21,7 @@ header {
 
 .heder_head {
   position: relative;
-  background-color: #40111d;
+  background-color: #4d1c32;
 }
 
 .container {
@@ -51,15 +51,15 @@ header {
 }
 
 .head_liner .logo a {
-    font-size: 14px;
-    color: #dec1c9;
-    display: inline-block;
-    padding: 20px 30px;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
+  font-size: 14px;
+  color: #dec1c9;
+  display: inline-block;
+  padding: 20px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
-  .head_liner nav ul {
+.head_liner nav ul {
   margin: 0;
   padding: 0;
   display: -webkit-flex;
@@ -134,7 +134,7 @@ header {
 }
 
 .intro_title{
-  color:  #4d1c32;
+  color:  #dec1c9;
   font-size: 75px;
   font-weight: 300;
   text-transform: inherit;
@@ -143,7 +143,7 @@ header {
 }
 h2 {
   text-align: center;
-  color: #380c20;
+  color: #4d1c32;
 }
 
 footer {
